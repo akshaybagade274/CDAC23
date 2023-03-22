@@ -1,0 +1,208 @@
+1. Check if the given number is EVEN or ODD.
+ANSWER:
+
+Step 1: Start
+Step 2: Taking input of a number say n
+Step 3: Read the number n
+Step 4: Check if((n%2)==1), then
+                  Print n is an odd number
+
+          Else
+
+                 Print n is an even number
+
+Step 5: End
+
+2.Write a Java Program to find the Factorial of a given number. 
+ANSWER:
+
+Step 1: Start
+Step 2: Read a number n
+Step 2: Initialize variables:
+i = 1, factorial = 1
+Step 3:  if i <= n go to step 4 otherwise go to step 7
+Step 4: Calculate
+factorial = factorial * i
+Step 5: Increment the i by 1 (i=i+1) and go to step 3
+Step 6: Print fact
+Step 7: Stop
+
+3. Find the Factorial of a number using Recursion.
+ANSWER:
+
+Step 1: Start
+Step 2: Read Number n
+Step 3: Call Factorial Function factorial(n)
+Step 4: Print Factorial f
+Step 5: Stop
+Definition of the factorial(n)
+Step 1:If n==1 return 1
+Step 2: Else
+f=n*factorial(n-1)
+Step 3: Return f
+
+
+4. Swap two numbers without using the third variable approach.
+ANSWER :
+
+Step 1: Declare 2 variables x and y.
+Step 2: Read two numbers from keyboard.
+Step 3: Swap numbers.
+Apply addition and subtraction operations to swap the numbers.
+   i. x=x+y
+   ii. y=x-y
+   iii. x=x-y
+Step 4: Print x and y values.
+
+
+5. How to check whether the given number is Positive or Negative in Java?
+ANSWER :
+
+Step 1:Start
+Step 2:Take input from the use 
+Step 3: Check the following condition:
+if(n>0) Go to step 4
+if(n<0) Go to step 5
+else Go to step 5
+Step 4:Print Number is Positive
+Step 5:Print Number is Negative
+Step 6: Numer is Zero.
+Step 7: Stop.
+
+
+6. Write a Java Program to find whether a given number is Leap year or NOT.
+ANSWER :
+
+Step 1:Start
+Step 2:Take integer variable year
+Step 3:Assign value to the variable.
+Step 4:Check if year is divisible by 4 but not 100,Display- "Leap Year"
+Step 5:Check if year is divisible by 400, Display- "Leap Year"
+Step 6:Otherwise,Display-"Not Leap Year"
+Step 7: Stop.
+
+8. Write a Java Program to print the digits of a Given Number. 
+ANSWER :
+
+Step 1:Start
+Step 2:Take integer as a input from the user.
+Step 3:Initialize another variable to store digits eg.count =0.
+Step 4:Check if num>0 then increment count by 1 i.e count++.
+Step 5:Divide num by 10 to remove the last digit of the given number i.e num=num/10.
+Step 6:Repeat step 3 and 4 till num>0 or num!=0.
+Step 7: Stop.
+
+9. Write a Java Program to print all the Factors of the Given number. 
+ANSWER:
+
+Step 1:Start
+Step 2:Declare a variable n and i as integer
+Step 3:Read thr number n.
+Step 4:Take for loop and do operations as follows
+       for i=1 to n/2 and increment by 1
+Step 5:Check if(n%i==0) if true go to step 6
+Step 6:Print i.
+Step 7:Stop
+
+10. Write a Java Program to find the sum of the digits of a given number. 
+ANSWER:
+
+Step 1:Start
+Step 2: Get number by user
+Step 3: Get the modulus/remainder of the number
+Step 4: sum the remainder of the number
+Step 5: Divide the number by 10
+Step 6: Repeat the step 2 while number is greater than 0.
+Step 7:Stop.
+
+11. Write a Java Program to find the smallest of 3 numbers (a,b,c) 
+ANSWER:
+
+Step 1:Start
+Step 2:Take three numbers a,b,c.
+Step 3:Check if a is less than b.
+Step 4: Check if c is less than a
+Step 5: If above condition is true,print "c is the smallest" else "a is the smallest".
+Step 6: Check if b is less than c.
+Step 7: If above condition is true then print "b is the smallest" else "c is the smallest"
+Step 8: Stop.
+
+12. How to add two numbers without using the arithmetic operators in Java?
+ANSWER:
+
+Step 1:Start
+Step 2:Take two variables a,b and carry.
+Step 3:Do bitwise and operation on a and b and store it in carry.
+        i.e.carry=(a&b)
+Step 4:Do a=a^b i.e sum of two bits is a XOR b
+Step 5:Do carry <<1 i.e shift carry to 1 bit to calculate sum.
+Step 6: Return a
+Step 7: Stop.		
+
+13. Write a java program to Reverse a given number.
+ANSWER:
+
+Step 1:Start
+Step 2:Take two variables number and reversed. Take number from the user and initialize reversed=0
+Step 3:Check number !=0 in while loop.in loop increase place value of reversed andadd last digit to reversed
+       reversed = (reversed * 10) + (number % 10); and 
+	   number /= 10;
+Step 4:Print reversed.
+
+14. Write a Java Program to find the GCD of two given numbers.
+ANSWER:
+
+Step 1:Start
+Step 2:Take two numbers (a and b) as input from the user to find their GCD.
+Step 3:Initialize a variable to store the GCD with an initial value of 1.
+Step 4:Check if a or b is equal to 0, if yes, store the non-zero number in the GCD variable. 
+       If this condition satisifies, step 4 will be skipped.
+Step 5:Iterate from 1 to min(a,b) and check if the number divides both a and b, if yes, then store it in GCD.
+Step 6:Print the GCD.
+Step 7:Stop.
+
+15. Write a java program to LCM of TWO given numbers. 
+ANSWER:
+Step 1: Start.
+Step 2:Initialize the positive integer variables A and B.
+Step 3:Validate whether the max is divisible by both variables A and B.
+Step 4: If max is divisible, display max as the LCM of two numbers.	
+Step 5:Else, the value of max is increased, and go to step 4.
+Step 6:Stop.  
+
+16. Write a java program to LCM of TWO given numbers using the Prime Factors
+method.
+ANSWER :
+
+Step 1: Start
+Step 2: List the first several multiples of each number.
+Step 3:Look for multiples common to both lists. If there are no common multiples in the lists, write out additional multiples for each number.
+Step 4: Look for the smallest number that is common to both lists.
+Step 5: This number is the LCM.
+Step 6:Stop.
+
+17. Check whether the Given Number is a Palindrome or NOT.
+ANSWER:
+
+Step 1:Start
+Step 2:Get the number from user.
+Step 3:Hold the number in temporary variable
+Step 4:Reverse the number
+Step 5:Compare the temporary number with reversed number
+Step 6:If both numbers are same, print palindrome number
+Step 7:Else print not palindrome number
+Step 8:Stop.
+
+18. Write a Java Program to print all the Prime Factors of the Given Number.
+ANSWER:
+
+
+
+
+
+
+   
+
+
+
+
